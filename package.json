@@ -1,7 +1,7 @@
 {
-  "name": "@kyuri-metro/shmetro-line-id-block-2024-svg-generator",
+  "name": "@kyuri-metro/shmetro-line-id-block-2025-svg-generator",
   "version": "0.1.1",
-  "description": "kyuri-metro 组织下的 2024 版上海地铁线路号方块 SVG 生成器。",
+  "description": "kyuri-metro 组织下的 2025 版上海地铁线路号方块 SVG 生成器。",
   "type": "module",
   "author": "Unnamed2964",
   "license": "MIT",
@@ -15,12 +15,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kyuri-metro/shmetro-line-id-block-2024-svg-generator.git"
+    "url": "git+https://github.com/kyuri-metro/shmetro-line-id-block-2025-svg-generator.git"
   },
   "bugs": {
-    "url": "https://github.com/kyuri-metro/shmetro-line-id-block-2024-svg-generator/issues"
+    "url": "https://github.com/kyuri-metro/shmetro-line-id-block-2025-svg-generator/issues"
   },
-  "homepage": "https://github.com/kyuri-metro/shmetro-line-id-block-2024-svg-generator#readme",
+  "homepage": "https://github.com/kyuri-metro/shmetro-line-id-block-2025-svg-generator#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",

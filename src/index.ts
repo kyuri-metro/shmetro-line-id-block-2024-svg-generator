@@ -179,7 +179,7 @@ function formatTransform(transform?: string) {
   return ` transform="${transform}"`
 }
 
-export function generateLineIdBlock2024Svg({ background, foreground, height = 100, lineNumber }: LineIdBlockProps) {
+export function generateLineIdBlock2025Svg({ background, foreground, height = 100, lineNumber }: LineIdBlockProps) {
   const parsed = parseLineNumber(lineNumber)
 
   if (!parsed) {
