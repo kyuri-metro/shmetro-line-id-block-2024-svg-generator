@@ -17,6 +17,40 @@
 
 导出接口位于 [src/index.ts](src/index.ts)。
 
+## 使用例
+
+安装：
+
+```bash
+npm install @kyuri-metro/shmetro-line-id-block-2025-svg-generator
+```
+
+调用：
+
+```ts
+import { generateLineIdBlock2025Svg } from '@kyuri-metro/shmetro-line-id-block-2025-svg-generator'
+
+const svg = generateLineIdBlock2025Svg({
+	lineNumber: 21,
+	height: 160,
+})
+
+document.body.innerHTML = svg
+```
+
+自定义颜色：
+
+```ts
+import { generateLineIdBlock2025Svg } from '@kyuri-metro/shmetro-line-id-block-2025-svg-generator'
+
+const svg = generateLineIdBlock2025Svg({
+	lineNumber: 26,
+	height: 120,
+	background: '#5F67A9',
+	foreground: '#ffffff',
+})
+```
+
 ## 参考资料
 
 - 2025 版参考资料位于 [docs](docs)
